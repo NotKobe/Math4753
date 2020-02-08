@@ -1,17 +1,16 @@
-#' My Function of sqaures and cubes
+#' My Function producing z values
 #'
-#' Produce list of squares and cubes
+#' Produce vectors of z values
 #'
-#' This isa part of the introduction to package package making
+#'
 #'
 #' @param x a vector
 #'
 #' @return a list of vectors
 #' @export
 #'
-#' @examples x = 1:4; myf(x)
-myf = function(x){
-  obj1 = x ^ 2
-  obj2 = x ^ 3
-  list(square = obj1, cube = obj2)
+#' @examples x = 1:7; myZfunction(x)
+myZfunction = function(x){
+  z = (x - mean(x))/sd(x)
+  z
 }
