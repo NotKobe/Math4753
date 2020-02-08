@@ -9,3 +9,5 @@ License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
+URL: https://github.com/NotKobe/Math4753
+BugReports: https://github.com/NotKobe/Math4753/issues
