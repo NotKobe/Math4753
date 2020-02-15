@@ -4,7 +4,7 @@ Title: Functions from the MATH4753 course
 Version: 0.1.0
 Author: Alberto Liu
 Maintainer: Alberto Liu <Alberto.liu@ou.edu>
-Description: These are functions from the labs extracted from MATH4753.
+Description: Produces Z value(s)
 License: MIT
 Encoding: UTF-8
 LazyData: true
