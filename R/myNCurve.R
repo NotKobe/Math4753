@@ -1,4 +1,4 @@
-#' myNCurve
+#' myncurve
 #'
 #' @param mu your mean
 #' @param sigma your standard deviation

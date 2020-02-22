@@ -2,3 +2,4 @@
 
 export(myZfunction)
 export(mybin)
+export(myncurve)
