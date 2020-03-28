@@ -1,4 +1,4 @@
-#' myBoot
+#' myBoot2
 #'
 #' @param iter an integer (iterations)
 #' @param x a vector (sample)
@@ -10,7 +10,7 @@
 #' @return a barplot that shows given confidence interval
 #' @export
 #'
-#' @examples myboot(iter=10000,x = sample,fun="median",alpha=0.09,cx=1.5)
+#' @examples myboot2(iter=10000,x = sample,fun="median",alpha=0.09,cx=1.5)
 myboot2<-function(iter=10000,x,fun="mean",alpha=0.05,cx=1.5,...){  #Notice where the ... is repeated in the code
   n=length(x)   #sample size
 

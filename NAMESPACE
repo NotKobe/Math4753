@@ -2,5 +2,6 @@
 
 export(myZfunction)
 export(mybin)
+export(myboot2)
 export(mycltb)
 export(myncurve)
