@@ -1,8 +1,8 @@
 #' myBinomial
 #' calculates the binomial distribution
-#' @param iter an integer
-#' @param n  an integer
-#' @param p a double
+#' @param iter an integer, how many times you want to run 
+#' @param n  an integer, the number of samples
+#' @param p a double, your probability
 #'
 #' @return binomial distribution, barplot and table of distributions
 #' @export
